@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="594.0" height="374.0" viewBox="-297.0 -187.0 594.0 374.0">
+<defs>
+<style type="text/css">
+.l7d7 {stroke: rgb(96, 191, 148); fill: rgb(96, 191, 148); fill-opacity: 0.5;}
+.l9d9 {stroke: rgb(139, 255, 42); fill: rgb(139, 255, 42); fill-opacity: 0.5;}
+.l25d27 {stroke: rgb(116, 85, 255); fill: rgb(116, 85, 255); fill-opacity: 0.5;}
+.l50d50 {stroke: rgb(42, 128, 73); fill: rgb(42, 128, 73); fill-opacity: 0.5;}
+.l11d11 {stroke: rgb(128, 64, 93); fill: rgb(128, 64, 93); fill-opacity: 0.5;}
+.l15d15 {stroke: rgb(128, 255, 139); fill: rgb(128, 255, 139); fill-opacity: 0.5;}
+</style>
+</defs><rect x="-297.0" y="-187.0" width="594.0" height="374.0" fill="#222" stroke="none"/>
+<g id="Interview_Task" transform="scale(1 -1)">
+<polygon class="l15d15" points="40,-80 40,80 260,80 260,-80"/>
+<polygon class="l9d9" points="60,-60 60,60 180,60 180,-60"/>
+<polygon class="l25d27" points="-60,-60 -60,60 -180,60 -180,-60"/>
+<polygon class="l7d7" points="130,-100 130,110 -130,110 -130,-100 -110,-100 -110,90 110,90 110,-100"/>
+<polygon class="l9d9" points="-240,60 -240,-60 -180,-60 -180,60"/>
+<polygon class="l25d27" points="180,-60 180,60 240,60 240,-60"/>
+<polygon class="l11d11" points="100,-40 100,40 -100,40 -100,-40"/>
+<polygon class="l11d11" points="140,-40 140,40 210,40 210,160 270,160 270,-160 210,-160 210,-40"/>
+<polygon class="l11d11" points="-140,-40 -140,40 -210,40 -210,160 -270,160 -270,-160 -210,-160 -210,-40"/>
+<polygon class="l50d50" points="220,-20 220,20 200,20 200,-20"/>
+<polygon class="l50d50" points="170,-20 170,20 150,20 150,-20"/>
+<polygon class="l50d50" points="90,-20 90,20 70,20 70,-20"/>
+<polygon class="l50d50" points="-70,-20 -70,20 -90,20 -90,-20"/>
+<polygon class="l50d50" points="-150,-20 -150,20 -170,20 -170,-20"/>
+<polygon class="l50d50" points="-200,-20 -200,20 -220,20 -220,-20"/>
+</g>
+</svg>
