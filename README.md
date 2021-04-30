@@ -6,7 +6,7 @@ in this task i did [inverter_layout folder]:https://bit.ly/2QGVoTT which contain
 dimensions which are controlled through the parameters of the Function. 
  
  # inverter_design.py
- this python code is for generating the layout of Cmos inverter with certain dimensions
+ this python code is for generating the layout of Cmos inverter with certain dimensions. 
 * **Wn** : Width of the NMOS = 12 um
 * **Wp** : Width of the PMOS = 12 um
 * **Lp**: Length of the PMOS = 2  um
