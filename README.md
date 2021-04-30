@@ -22,7 +22,9 @@ In this code ***.gds*** and ***.svg*** files are generated to view the layout de
 
 `
 lib.write_gds('Fixed_Dimensions_inverter.gds')
+`
 
+`
 cell.write_svg('Fixed_Dimensions_inverter.svg')
  `
 
