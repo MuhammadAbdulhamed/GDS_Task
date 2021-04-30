@@ -1,12 +1,13 @@
 # Get Started
-GDS_task is simply a python code that use [gdspy package]:https://github.com/heitzmann/gdspy to create a layout design to Cmos Inverter.
+GDS_task is simply a python code that use [gdspy package]:https://github.com/heitzmann/gdspy to create a layout design to 
+Inverter.
 in this task i did [inverter_layout folder]:https://bit.ly/2QGVoTT which contains two different python files:- 
 1. [inverter_design.py]: https://bit.ly/3aQBpsE that's for generating an inverter with certain dimensions.
 2. [Fn_of_layout_INV.py]:https://bit.ly/2RcbPr0 it's a general code for drawing layout of any inverter with different 
 dimensions which are controlled through the parameters of the Function. 
  
  # inverter_design.py
- this python code is for generating the layout of Cmos inverter with certain dimensions. 
+ this python code is for generating the layout of CMOS inverter with certain dimensions. 
 * **Wn** : Width of the NMOS = 12 um
 * **Wp** : Width of the PMOS = 12 um
 * **Lp**: Length of the PMOS = 2  um
@@ -27,7 +28,7 @@ cell.write_svg('Fixed_Dimensions_inverter.svg')
 The GDS file can be opened in a number of viewers and editors, such as [KLayout]: https://klayout.de/ .
 
 # Fn_of_layout_INV.py
-This python code is for generating the layout of Cmos inverter with general dimensions which are specified by the designer 
+This python code is for generating the layout of CMOS inverter with general dimensions which are specified by the designer 
 
 ### The function which is defined in the code:- 
 
