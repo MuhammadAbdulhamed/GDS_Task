@@ -27,12 +27,21 @@ cell.write_svg('Fixed_Dimensions_inverter.svg')
 The GDS file can be opened in a number of viewers and editors, such as [KLayout]: https://klayout.de/ .
 
 # Fn_of_layout_INV.py
-this python code is for generating the layout of Cmos inverter with general dimensions which are specified by the designer 
+This python code is for generating the layout of Cmos inverter with general dimensions which are specified by the designer 
 
-## The function which is defined in the code 
+### The function which is defined in the code:- 
 
  `
 def draw_inv(Wn, Wp, Lp, Ln, Wnd, Wpd):
  `
+ whereas :
  
+* **Wn** : Width of the NMOS 
+* **Wp** : Width of the PMOS 
+* **Lp**: Length of the PMOS 
+* **Ln**: Lenght of the NMOS 
+* **Wnd** : Diffusion width of the NMOS 
+* **Wpd** : Diffusion width of the PMOS 
  
+You can check the layout design through [FN_of_layout_INV.gds]:https://bit.ly/3t9o3hw using [KLayout]: https://klayout.de/ , 
+or through [FN_of_layout_INV.svg]:https://bit.ly/2QBpoRc .
