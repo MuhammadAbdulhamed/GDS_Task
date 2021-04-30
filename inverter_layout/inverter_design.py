@@ -10,7 +10,7 @@ import gdspy
 lib = gdspy.GdsLibrary()
 
 # Geometry must be placed in cells.
-cell = lib.new_cell('Interview_Task')
+cell = lib.new_cell('Task_test')
 ######################
 #Geometry of N_well
 N_well = {"layer":15 , "datatype":15}
@@ -21,20 +21,20 @@ Diffusion_pplus = {"layer":9 , "datatype":9}
 p2 = gdspy.Rectangle((6, -6), (18,6), **Diffusion_pplus)
 #################################
 #Geometry of p+ diffusion for nmos Tr to contact p-substrate with GND (sustrate Tap) 
-p5 = gdspy.Rectangle((-24, 6), (-18,-6), **Diffusion_pplus)
+p3 = gdspy.Rectangle((-24, 6), (-18,-6), **Diffusion_pplus)
 #######################################################################
 ################Geometry of diffusion n+################
 Diffusion_nplus = {"layer":25, "datatype":27}
 #Geometry of diffusion of nmos Tr
-p3 = gdspy.Rectangle((-6, -6), (-18,6), **Diffusion_nplus)
+p4 = gdspy.Rectangle((-6, -6), (-18,6), **Diffusion_nplus)
 #################################
 #Geometry of n+ diffusion for pmos Tr to contact n-well with VDD   (N-well Tap)
-p6 = gdspy.Rectangle((18, -6), (24,6), **Diffusion_nplus)
+p5 = gdspy.Rectangle((18, -6), (24,6), **Diffusion_nplus)
 #####################################################################
 #Geometry of Gate poly silicon
 Gate_poly={"layer":7 , "datatype":7}
 points_1 = [(13, -10), (13, 11), (-13, 11), (-13, -10), (-11, -10), (-11, 9), (11, 9), (11,-10)]
-p4 = gdspy.Polygon(points_1,**Gate_poly)
+p6 = gdspy.Polygon(points_1,**Gate_poly)
 ################Geometry of metal layers################
 Metal_layer= {"layer":  11, "datatype":11}
 #Geometry of metal layer between drains of the Trs
@@ -78,11 +78,11 @@ cell.add(p15)
 
 
 
-# Save the library in a file called 'inverter.gds'.
-lib.write_gds('inverter.gds')
+# Save the library in a file called 'Fixed_Dimensions_inverter.gds'.
+lib.write_gds('Fixed_Dimensions_inverter.gds')
 
 # Optionally, save an image of the cell as SVG.
-cell.write_svg('inverter.svg')
+cell.write_svg('Fixed_Dimensions_inverter.svg')
 
 
 

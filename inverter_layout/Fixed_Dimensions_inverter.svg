@@ -11,13 +11,13 @@
 .l15d15 {stroke: rgb(128, 255, 139); fill: rgb(128, 255, 139); fill-opacity: 0.5;}
 </style>
 </defs><rect x="-297.0" y="-187.0" width="594.0" height="374.0" fill="#222" stroke="none"/>
-<g id="Interview_Task" transform="scale(1 -1)">
+<g id="Task_test" transform="scale(1 -1)">
 <polygon class="l15d15" points="40,-80 40,80 260,80 260,-80"/>
 <polygon class="l9d9" points="60,-60 60,60 180,60 180,-60"/>
-<polygon class="l25d27" points="-60,-60 -60,60 -180,60 -180,-60"/>
-<polygon class="l7d7" points="130,-100 130,110 -130,110 -130,-100 -110,-100 -110,90 110,90 110,-100"/>
 <polygon class="l9d9" points="-240,60 -240,-60 -180,-60 -180,60"/>
+<polygon class="l25d27" points="-60,-60 -60,60 -180,60 -180,-60"/>
 <polygon class="l25d27" points="180,-60 180,60 240,60 240,-60"/>
+<polygon class="l7d7" points="130,-100 130,110 -130,110 -130,-100 -110,-100 -110,90 110,90 110,-100"/>
 <polygon class="l11d11" points="100,-40 100,40 -100,40 -100,-40"/>
 <polygon class="l11d11" points="140,-40 140,40 210,40 210,160 270,160 270,-160 210,-160 210,-40"/>
 <polygon class="l11d11" points="-140,-40 -140,40 -210,40 -210,160 -270,160 -270,-160 -210,-160 -210,-40"/>
